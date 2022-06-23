@@ -1,0 +1,112 @@
+ *{ 
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+}
+.first-body{
+    background-image: url(images/payoneer-app-header.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 400px 400px;
+    border: 2px solid red;
+    padding-bottom: 30%;
+}
+center{
+    display:block;
+    float: left;
+    padding: 50px 20px;
+    position:relative;
+}
+ /*--Navigation bar  --*/
+nav{
+    padding: 0;
+}
+header ul{
+    list-style-type: none;
+    background-color: black;
+    padding-left: 100px;
+}
+header li{
+    display: inline-block;
+    background-color:black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0.2px solid red;
+   
+}
+header a{
+    margin-left: 70px;
+    color: white;
+    
+}
+.container{
+    background-image: linear-gradient(90deg, hsl(0, 100%, 60%) 10%,hsl(39, 100%, 60%),hsl(60, 100%, 60%) 20px,hsl(240, 100%, 70%) 40px,hsl(120, 100%, 80%) 150px);
+    height:38px;
+    width:38px;
+    display: flex;
+    border-radius: 50%;
+    margin-right: 3px;
+}   
+.circle{
+    background-color: black;
+    height: 31px;
+    width:31px;
+    border-radius: 50%;
+    margin: 4px;
+}
+#logo{
+    font-size: 39px;
+    font-family: sans-serif;
+    margin:0;
+    padding: 0;
+    margin-right: 120px; 
+}
+#mid-nav{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin:0;
+    padding: 3px 10px;
+    
+}
+.sign-nav{
+    background-color: hsl(180, 0%, 30%);
+    border: 0.5px solid hsl(180, 0%, 50%);
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-align: center;
+    margin:0;
+}
+.get-nav{
+    border: 0.3px solid grey;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 0;
+
+}
+/*--style links bar  --*/
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: hsl(221, 100%, 65%);
+    transition-duration: 1s;
+}
+a[href="#Get Started"]:hover{
+    background-color:hsl(0, 0%, 90%);
+    color:black;
+    transition: 1s;
+    
+    transition-timing-function: ease-in-out;
+}
+a[href="#Sign in"]:hover{
+    background-color:hsl(0, 0%, 40%);
+    color:white;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
